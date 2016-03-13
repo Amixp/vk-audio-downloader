@@ -1,5 +1,4 @@
 import vk
-<<<<<<< HEAD
 
 session = vk.InteractiveAuthSession(app_id='5071179', scope="audio") 
                           # Выводит запрос логина и пароля интерактивно
@@ -15,5 +14,3 @@ for song in info:
         print("Encoding error")
         
 
-=======
->>>>>>> 88a936a39e68f3bae65e1d9eb3a9c0e3e2b41537
