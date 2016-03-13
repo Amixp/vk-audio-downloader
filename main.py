@@ -19,3 +19,8 @@ for song in info:
     except Exception: # у меня пару раз выдавало ошибку,
     				   # как я понял при попытке декодировать кириллицу
         print("Encoding error")
+<<<<<<< HEAD
+=======
+        
+
+>>>>>>> 575001acbe06e2b38e224338bb16b1683226ae93
