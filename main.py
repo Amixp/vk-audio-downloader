@@ -9,7 +9,8 @@ info = api.audio.get() # пол
 for song in info:
     try:
         print(song)
-    except Exception: # у меня пару раз выдавало ошибку, как я понял при попытке декодировать кириллицу
+    except Exception: # у меня пару раз выдавало ошибку,
+    				   # как я понял при попытке декодировать кириллицу
         print("Encoding error")
         
 
