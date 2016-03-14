@@ -1,12 +1,6 @@
 
 class SyncManager(object):
-    '''
-    classdocs
-    '''
-
-
-    def __init__(self, params):
-        '''
-        Constructor
-        '''
+        
+    def download_audio(self, audio_info, folder):
+        pass
         
