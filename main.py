@@ -8,5 +8,6 @@ session = app.auth_user() # authorise in account
 manager = MusicManager(session)
 songs = manager.get_audio_list()
 
-sync = SyncManager()
-sync.download_audio(songs)
+sync = SyncManager(songs)
+sync.chache_in_db()
+sync.download_audio()
